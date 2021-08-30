@@ -1,0 +1,165 @@
+{
+  "id": "ab5c9397-b96e-4d60-a6b6-f5bff986433b",
+  "version": "2.0",
+  "name": "lesson10-1",
+  "url": "https://www.tumblr.com",
+  "tests": [{
+    "id": "701924a6-e5b7-4ffb-958c-d859c4ae2085",
+    "name": "Check_login",
+    "commands": [{
+      "id": "b74f55bb-186b-4b2f-9a6c-48b631ee8d45",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "966ff9a3-f778-4b22-925e-249dd7afd613",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1662x932",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "449f1ab9-fad3-4688-ad3d-436c7d65a85c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i_kY6:nth-child(1)",
+      "targets": [
+        ["css=.i_kY6:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Войти')])[3]", "xpath:link"],
+        ["xpath=//div[@id='base-container']/div[2]/div[2]/header/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/login')])[3]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a602481-8f0d-4b32-826d-7fa75661129c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.YBsUO:nth-child(1) > .o4KIk", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//section[@id='Вперед!']/div/div/div[2]/div/section/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "petrenko.nad1n@gmail.com"
+    }, {
+      "id": "02677703-25cc-405c-9a89-8640c7724638",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.YBsUO:nth-child(2) > .o4KIk", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='Вперед!']/div/div/div[2]/div/section/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "K31a33ru"
+    }, {
+      "id": "ee4f6a44-7495-45ee-8e4a-f7ae7ca021df",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=email",
+      "targets": [],
+      "value": "petrenko.nad1n@gmail.com"
+    }, {
+      "id": "45519e54-b4c3-451f-9d27-dbd57371c880",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ZYq7T > .vq1BT",
+      "targets": [
+        ["css=.ZYq7T > .vq1BT", "css:finder"],
+        ["xpath=//section[@id='Вперед!']/div/div/div[2]/div/section/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab9560a8-8c95-4b38-86e7-b3432517e74b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kIuBF:nth-child(6) path",
+      "targets": [
+        ["css=.kIuBF:nth-child(6) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a5c065a-183c-418a-896b-17975f1a6d4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kIuBF:nth-child(6) path",
+      "targets": [
+        ["css=.kIuBF:nth-child(6) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf1581e-65ad-413f-afbc-69edbbc8af52",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.kIuBF:nth-child(6) .WCafO path",
+      "targets": [
+        ["css=.kIuBF:nth-child(6) .WCafO path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "998bd1b3-397e-4594-ac99-91d23a83c21d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.oXYe5:nth-child(1)",
+      "targets": [
+        ["css=.oXYe5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='base-container']/div[2]/div/header/div[2]/div[6]/span/div/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b87f967-b590-4b28-b406-42eabe8b08e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oXYe5:nth-child(1)",
+      "targets": [
+        ["css=.oXYe5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='base-container']/div[2]/div/header/div[2]/div[6]/span/div/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85fdf4f1-51ea-4453-aad5-0cf3c6adc298",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.oXYe5:nth-child(1)",
+      "targets": [
+        ["css=.oXYe5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='base-container']/div[2]/div/header/div[2]/div[6]/span/div/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd3303c3-037f-473d-88f9-32b8c1c429c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ZYq7T:nth-child(2) > .vq1BT",
+      "targets": [
+        ["css=.ZYq7T:nth-child(2) > .vq1BT", "css:finder"],
+        ["xpath=//div[@id='glass-container']/div/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OК')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "752764e9-8637-4d84-a130-0360c5cb32ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["701924a6-e5b7-4ffb-958c-d859c4ae2085"]
+  }],
+  "urls": ["https://www.tumblr.com/"],
+  "plugins": []
+}
